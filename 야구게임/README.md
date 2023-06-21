@@ -34,3 +34,8 @@ main() 메서드는 프로그램의 시작점입니다. 사용자로부터 입�
 명령줄 인수로 3개의 숫자가 전달된 경우, 해당 숫자를 기반으로 playGame(int x, int y, int z) 메소드를 호출합니다.<br>
 명령줄 인수로 3개의 숫자가 전달되지 않은 경우, playGame() 메소드를 호출합니다.<br>
 게임 종료 후 시도한 횟수에 따라 적절한 메시지를 출력합니다.
+
+
+---
+
+![image](https://github.com/kangjungmook/School_Study/assets/106642094/a4078671-5f0b-4064-808c-e3cb100c6d30)
