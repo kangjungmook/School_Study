@@ -1,7 +1,7 @@
 ```java
 Connection conn = null
 ```
-> Connection(연결객체) 변수conn 선언
+> Connection(연결객체) 변수conn 선언.
 ```java
 String url = "jdbc:oracle:thin:@localhost:1521:xe";
 		String id = "system";
