@@ -1,4 +1,4 @@
-# 파일 1 : member_search.jsp 
+# 파일 : member_search.jsp 
 
 ```jsp
 <%@ page language="java" contentType="text/html; charset=UTF-8"
@@ -34,7 +34,7 @@
 * 스타일링을 위해 외부 CSS 파일을 사용합니다.
 * JavaScript 함수 check()은 양식 입력을 유효성 검사합니다.
 
-* # 파일 2 : member_search_list.jsp 
+* # 파일 : member_search_list.jsp 
 ```jsp
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
@@ -74,7 +74,7 @@ int num = Integer.parseInt(request.getParameter("custno"));
 * JDBC를 사용하여 데이터베이스에 연결하여 제공된 회원 ID를 기반으로 회원 데이터를 검색합니다.
 * 회원을 찾았을 경우 회원 정보를 HTML 테이블에 표시하고, 찾지 못한 경우 "찾을 수 없음" 메시지를 표시합니다.
 
-# 파일 2 : member_list.jsp
+# 파일 : member_list.jsp
 ```jsp
 <%@page import="DB.DBconect"%>
 <%@ page import="java.sql.*" %>
